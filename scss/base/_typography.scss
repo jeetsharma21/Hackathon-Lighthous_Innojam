@@ -1,0 +1,81 @@
+html, body {
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+	font-size: 4rem;
+}
+
+h3 {
+	font-size: 2.75rem;
+}
+
+p, span, li, label {
+	color: $copy;
+	padding: 0;
+	margin: 0;
+	font-size: 1.25rem;
+}
+
+a {
+	color: white;
+	border-bottom: 1px solid white;
+	transition: .3s all ease-in-out;
+}
+
+a:hover, a:focus {
+	color: $light;
+	border-bottom: 1px solid $light;
+}
+
+.button {
+	padding: 1rem 1.5rem;
+	border-radius: 3px;
+	text-transform: uppercase;
+	margin-right: 0;
+}
+
+.button-login {
+	margin-top: 2rem;
+	background-color: $global-bg;
+	color: $action;
+	border: 1px solid $action;
+}
+
+.button-login:hover, .button-login:focus {
+	background-color: $action;
+	color: $global-bg;
+	border: 1px solid $action;
+}
+
+.button-main {
+	margin-top: 2rem;
+	background-color: transparent;
+	color: white;
+	border: 1px solid white;
+	font-size: 1.25rem;
+}
+
+.button-main:hover, .button-main:focus {
+	background-color: $sa-secondary;
+	color: $sa-primary;
+	border: 1px solid $sa-secondary;
+}
+
+.button-next {
+	background-color: $global-bg;
+	color: $action;
+	border: 1px solid $action;
+	font-size: 1.5rem;
+	padding: 1.5rem 2rem;
+}
+
+.button-next:hover, .button-main:focus {
+	background-color: $action;
+	color: $global-bg;
+	border: 1px solid $action;
+}

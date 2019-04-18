@@ -1,0 +1,71 @@
+.welcome-screen {
+	background-image: url("../images/welcome-bg.jpg");
+	background-size: cover;
+	background-color: $global-bg;
+}
+
+.welcome-wrapper {
+	height: 100%;
+
+	.welcome {
+		position: relative;
+		top: 45%;
+		transform: translateY(-45%);
+
+		h1 {
+			font-size: 7rem;
+			color: $sa-primary;
+		}
+
+		h2 {
+			font-size: 4rem;
+		}
+
+		a {
+			color: $sa-secondary;
+			border: 0;
+		}
+
+		a:hover {
+			color: $light;
+		}
+	}
+}
+
+.login-wrapper {
+	height: 100%;
+}
+
+.login {
+	position: relative;
+	/* These numbers are hacky, not based on any actual measurement */
+	top: 25%;
+	transform: translateY(-25%);
+
+	.create-account {
+		border-right: 1px solid $sa-secondary;
+	}
+
+	h3 {
+		font-size: 3rem;
+		color: $sa-primary;
+		margin-bottom: 2rem;
+	}
+
+	label {
+		color: $sa-secondary;
+	}
+
+	.forgot-pass {
+		font-size: 1rem;
+	}
+
+	.login-button {
+		text-align: center;
+	}
+}
+
+.create-account, .have-account {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}

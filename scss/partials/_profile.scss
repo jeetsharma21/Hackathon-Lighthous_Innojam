@@ -1,0 +1,73 @@
+.profile-top {
+	padding-top: 3rem;
+	background-color: $sa-primary;
+
+	h1 {
+		color: $sa-primary-dark;
+		font-size: 4rem;
+
+		@media screen and (max-width: 39.9375em) {
+			font-size: 3.5rem;
+		}
+	}
+
+	h1.name {
+		font-size: 5rem;
+		color: $sa-secondary;
+		opacity: 1;
+	}
+
+	.profile-pic {
+		padding-top: 2rem;
+
+		img {
+			max-width: 100%;
+			mix-blend-mode: multiply;
+		}
+	}
+
+	.basic-info {
+		padding-top: 1rem;
+
+		p {
+			color: $sa-primary-dark;
+		}
+
+		a {
+			color: white;
+		}
+
+		a:hover {
+			color: $sa-secondary;
+		}
+	}
+}
+
+.profile-bottom {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	color: #444;
+
+	h3 {
+		color: $sa-primary;
+		border-bottom: 2px solid $sa-primary;
+		padding-bottom: 1rem;
+	}
+
+	ul {
+		margin: 0;
+		padding-top: 0.5rem;
+		list-style-type: none;
+	}
+
+	a {
+		color: $sa-secondary;
+		font-weight: bold;
+		border-bottom: 1px solid $sa-secondary;
+	}
+
+	a:hover {
+		color: $sa-primary;
+		border-bottom: 1px solid $sa-primary;
+	}
+}

@@ -1,0 +1,93 @@
+.position {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	background-color: $sa-primary;
+
+	h1 {
+		color: $sa-primary-dark;
+		font-size: 4rem;
+
+		@media screen and (max-width: 39.9375em) {
+			font-size: 3.5rem;
+		}
+	}
+
+	.button-main {
+		font-size: 1.5rem;
+		padding: 1.5rem 2.5rem;
+	}
+}
+
+.position-alt {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+
+	h1 {
+		color: $white;
+		font-size: 4rem;
+
+		@media screen and (max-width: 39.9375em) {
+			font-size: 3.5rem;
+		}
+	}
+
+	.button-main {
+		font-size: 1.5rem;
+		padding: 1.5rem 2.5rem;
+	}
+
+	.button-main:hover {
+		color: $global-bg;
+	}
+}
+
+.team {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	background-color: $sa-primary;
+
+	h1 {
+		color: $sa-primary-dark;
+		font-size: 4rem;
+
+		@media screen and (max-width: 39.9375em) {
+			font-size: 3.5rem;
+		}
+	}
+
+	h3 {
+		color: $sa-secondary;
+	}
+
+	ul {
+		list-style-type: none;
+		margin: 0;
+	}
+
+	.columns {
+		margin-bottom: 1.5rem;
+	}
+}
+
+.countdown {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	background-color: $sa-primary;
+	text-align: center;
+
+	h1 {
+		color: $sa-secondary;
+		font-size: 4rem;
+
+		@media screen and (max-width: 39.9375em) {
+			font-size: 3.5rem;
+		}
+	}
+}
+
+.next-section {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	border-top: 1px solid $sa-secondary;
+	text-align: center;
+}
